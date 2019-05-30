@@ -3,9 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Octocat Memory Game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>SUDOKU</title>
+  
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -15,26 +14,23 @@
 
 <body>
 
-  
-<div class='head'>
-	<div class='time'>Time: <span class="min">00</span>:<span class="sec">00</span></div>
-	<div class='start'>Start Game</div>
-	<div class='move'>Moves: <span class="c_move">0</span></div>
+  <a href="#" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+</a>
+
+<h1 id="sudoku_title">SUDOKU</h1>
+
+<div id="sudoku_menu">
+  <ul>
+    <li><a class="restart" href="#">New Game</a></li>
+    <li></li>
+  </ul>
 </div>
-<br>
-<br>
-  <div class="room" align="center"></div>
-<div class=board>
-<p class="greet">Voila</p>
-<p class="scr">Your Score</p>
-<p class='scr_time'>Time : <span class='scr_min'>00</span>:<span class='scr_sec'>00</span> </p>
-<p class = 'scr_move'>Moves :<span class='scr_moves'>  00</span></p>
-<button type="button" class='again'> Again </button>
-<p class="me">Lộc đẹp trai nhất quả đất/p>
-</div>
-<br><br>
-<div class='me' align = "center"> Lộc đẹp trai nhất quả đất</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+<div id="sudoku_container"></div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
   
 
